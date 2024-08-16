@@ -1,0 +1,122 @@
+/* *{
+    margin: opx;
+    padding:opx;
+    box-sizing: border-box
+} */
+ body{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     width: 100%;
+ }
+
+
+
+
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 37px 0px; 
+}
+.btn_primary{
+    background-color: white;
+    padding: 15px;
+    color:rgb(6, 45, 45);
+    font-weight: 700;
+    font-size: 17px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.main_title{
+    margin-left: 50px;
+}
+.h_heading{
+    justify-content: space-between;
+    text-align: center;
+    background-image:url(Hero-bg.png) ;
+    background-repeat: no-repeat;
+}
+.h_button{
+    padding: 20px;
+    margin: 30px;
+    font-size: 18px;
+    background-color: black;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.h_font{
+    font-size: 45px;
+    margin: 0px;
+    /* font-style: normal; */
+    
+    padding: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lorem1{
+    padding-bottom: 60px;
+}
+.h_line{
+    font-size: 27px;
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+.lorem{
+    /* text-align: center; */
+    color:rgb(142, 132, 120);
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    text-align: center;
+    /* padding-top: 10px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(211,227,253);
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    max-width: 1100px;
+    
+}
+.s_des{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    
+}
+.will_do{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900px;
+    color:rgb(101, 96, 89)
+}
+main img{
+    padding-left: 200px;
+}
+.line_code{
+    margin-left: 20px;
+}
+.s_des2{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-right: 50px;
+    gap: 50px;
+    column-width: 100px;
+}
+.my_ins{
+    text-align: center;
+    padding-top: 40px;
+    margin: 30px;
+}
