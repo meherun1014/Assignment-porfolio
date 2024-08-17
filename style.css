@@ -1,8 +1,4 @@
-/* *{
-    margin: opx;
-    padding:opx;
-    box-sizing: border-box
-} */
+/* heading tag start */
  body{
     display: block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,10 +28,12 @@
     margin-left: 50px;
 }
 .h_heading{
-    justify-content: space-between;
+    
     text-align: center;
     background-image:url(Hero-bg.png) ;
-    background-repeat: no-repeat;
+    height:700px;
+    /* margin: 100%; */
+    
 }
 .h_button{
     padding: 20px;
@@ -57,8 +55,12 @@
     padding: 20px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+                                                   /* Heading tag end   */
+
+                                                   /* main tag start */
 .lorem1{
     padding-bottom: 60px;
+    font-size: 20px;
 }
 .h_line{
     font-size: 27px;
@@ -73,12 +75,14 @@
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 .about{
     text-align: center;
     /* padding-top: 10px; */
     margin-left: 100px;
     margin-right: 100px;
-    background-color: rgb(211,227,253);
+    background-color:ghostwhite;
     border-radius: 15px;
     padding-top: 50px;
     padding-left: 50px;
@@ -91,8 +95,9 @@
     display: flex;
     background-color: white;
     border-radius: 20px;
-    margin-left: 70px;
-    margin-right: 50px;
+    padding: 35px;
+    margin: 50px;
+    justify-content: monospace;
     
 }
 .will_do{
@@ -100,11 +105,11 @@
     font-weight: 900px;
     color:rgb(101, 96, 89)
 }
-main img{
+.image{
     padding-left: 200px;
 }
 .line_code{
-    margin-left: 20px;
+    margin-left: 123px;
 }
 .s_des2{
     display: flex;
@@ -119,4 +124,79 @@ main img{
     text-align: center;
     padding-top: 40px;
     margin: 30px;
+}
+.div_line{
+    text-align: center;
+    padding-top: 50px;
+    margin: 40px;
+}
+
+.logo_container{
+    display:flex;
+    justify-content: space-around;
+    /* display: inline-block; */
+
+
+}
+main .logo_html{
+    padding: 40px;
+    width:300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(253,233, 253, 0.9999);
+}
+.logo_css{
+    background-color: ghostwhite;
+    padding: 40px;
+    width:300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.box_shadow {
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 983px;
+    padding-right: 200px;
+    margin-top: 45px;
+    margin-left: 163px;
+    height: 200px;
+}
+    
+.logo_paragraph{
+    padding-left: 20px;
+}
+.img_star {
+    padding-top: 52px;
+    padding-right: 12px;
+}
+.last_logo {
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 70px;
+    height: 269px;
+    margin-right: 140px;
+    width: 1046px;
+    margin-left: 109px;
+    margin-left: 233px;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    border-radius: 15px;
+}
+ .dis_item{ 
+    display: inline-flex;
+    padding: 26px;
+    margin: -3px;
+    
+}
+                                                          /* main tag sesh */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 26px;
+    background-color: ghostwhite;
+    border-radius: 10px;
 }
